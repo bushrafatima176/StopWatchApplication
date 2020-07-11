@@ -1,0 +1,102 @@
+body{
+    background-color: rgb(29, 28, 28);
+    color: white;
+    text-align: center;
+}
+.heading{
+    text-transform: uppercase;
+    font-family: monospace;
+    letter-spacing: 0.8em;
+    margin-top: 30px;
+    font-size: 17px;
+    padding: 20px;
+    color: blueviolet;
+}
+
+.time{
+    display: flex;
+justify-content: center;
+font-size: 18px;
+margin-bottom: 30px;
+    
+}
+.widthheading{
+    width: 110px;
+}
+.unit{
+    display: flex;
+    justify-content: center;
+    
+}
+p{
+    width: 100px;
+    margin: 15px;
+    font-size: 15px;
+    letter-spacing: 0.3em;
+}
+
+button{
+    padding: 8px;
+    margin: 10px;
+    font-size: 18px;
+    letter-spacing: 0.3em;
+    border-radius: 10px;
+    outline: none;
+    background-color: blueviolet;
+    color: rgb(255, 255, 255);
+    border: 2px solid white;
+    cursor: pointer;
+
+}
+button:hover{
+    opacity: 0.5;
+    color: cyan;
+}
+
+@media(max-width: 1200px){
+    .heading{
+        text-transform: uppercase;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        letter-spacing: 0.5em;
+        font-size: 16px;
+        padding: 12px;
+    }
+
+    .time{
+    font-size: 18px;
+    margin-bottom: 10px;
+        
+    }
+}
+@media (max-width:500px){
+    .heading{
+        letter-spacing: 0.6em;
+        font-size: 12px;
+        padding: 5px;
+    }
+
+    .time{
+    font-size: 16px;
+    margin-bottom: 0px;
+        
+    }
+   
+    .widthheading{
+        width: 65px;
+    }
+    p{
+        width: 60px;
+        margin-top: 10px;
+        font-size: 14px;
+        letter-spacing: 0.1em;
+
+        
+    }
+    button{
+        padding: 8px;
+        margin-top: 8px;
+        font-size: 15px;
+        letter-spacing: 0.2em;
+    
+    }
+}
